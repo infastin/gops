@@ -56,7 +56,7 @@ func (p *linuxProcess) SysTime() uint {
 	return p.stime
 }
 
-func (p *linuxProcess) Threads() uint {
+func (p *linuxProcess) NumThreads() uint {
 	return p.numThreads
 }
 

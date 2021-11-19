@@ -8,7 +8,7 @@ type Process interface {
 	Executable() string
 	UserTime() uint
 	SysTime() uint
-	Threads() uint
+	NumThreads() uint
 	StartTime() uint64
 	VirtMem() uint
 	PhysMem() uint
